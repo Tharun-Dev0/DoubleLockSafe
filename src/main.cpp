@@ -6,11 +6,11 @@
 #include <Adafruit_GFX.h>
 
 // ===== WiFi & ThingSpeak =====
-const char* ssid = "Rabbit 🐰";
+const char* ssid = "";
 const char* password = "";
-const String writeAPIKey = "YEHJ4AGN24HGX0UT";
-const String readAPIKey  = "34UZFN69R9CWVQF6";
-const String channelID   = "3131261";
+const String writeAPIKey = "";
+const String readAPIKey  = "";
+const String channelID   = "";
 const String updateURL   = "http://api.thingspeak.com/update";
 const String readURL     = "http://api.thingspeak.com/channels/" + channelID + "/fields/1/last.json?api_key=" + readAPIKey;
 
